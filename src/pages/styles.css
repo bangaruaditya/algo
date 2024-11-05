@@ -1,0 +1,16 @@
+@keyframes gradientAnimation {
+    0% {
+      background-color: #6ee7b7; /* Green */
+    }
+    50% {
+      background-color: #3b82f6; /* Blue */
+    }
+    100% {
+      background-color: #9333ea; /* Purple */
+    }
+  }
+  
+  .animated-background {
+    animation: gradientAnimation 5s ease infinite;
+  }
+  
